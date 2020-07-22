@@ -4,7 +4,7 @@ public class WatchTV {
 
 	public static void main(String[] args) {
 	
-/*		TV tv = new TV( 7, 20, false);  	
+		TV tv = new TV( 7, 20, false);  	
         
         tv.status();	
         
@@ -24,7 +24,7 @@ public class WatchTV {
         tv.status();
 
         tv.power( false );
-        tv.status();     */ 		 
+        tv.status();      		 
 	}
 
 }
