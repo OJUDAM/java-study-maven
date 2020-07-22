@@ -42,6 +42,33 @@ public class MainApp {
 		
 		System.out.println("============================");
 		draw(new GraphicText("Hello"));
+		
+		System.out.println("============================");
+		
+		
+		System.out.println(circle instanceof Circle);
+		System.out.println(circle instanceof Shape);
+		System.out.println(circle instanceof Drawable);
+		System.out.println(circle instanceof Object);
+		
+		//오류 : class는 Hierachy 구조에서 상위,
+		//        하위 클래스만 instanceof 연산자를
+		//        사용할 수있다.
+		//System.out.println(circle instanceof Rect);
+		
+		System.out.println("============================");
+		
+		Shape s = new Circle();
+		
+		System.out.println(s instanceof Circle);
+		System.out.println(s instanceof Shape);
+		System.out.println(s instanceof Drawable);
+		System.out.println(s instanceof Object);
+		System.out.println(s instanceof Triangle);
+		
+		System.out.println("============================");
+		System.out.println(s instanceof Drawable);
+		System.out.println(s instanceof Runnable);
 
 	}
 	
