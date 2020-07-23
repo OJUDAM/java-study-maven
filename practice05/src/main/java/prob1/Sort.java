@@ -20,13 +20,12 @@ public class Sort {
 		// 정렬 알고리즘이 적용된 코드를 여기에 작성합니다.
 		// 
 		
-		for(int i=0;i<count-1;i++) {
-			temp = array[i];
-			for(int j=i+1;j<count;j++) {
-				if(temp<array[j]) {
-					array[i]=array[j];
-					array[j]=temp;
-					temp=array[j];
+		for(int i=0;i<count;i++) {
+			for(int j=0;j<count-i-1;j++) {
+				temp = array[j];
+				if(temp<array[j+1]) {
+					array[j] = array[j+1];
+					array[j+1]=temp;
 				}
 			}
 			System.out.println(Arrays.toString(array));

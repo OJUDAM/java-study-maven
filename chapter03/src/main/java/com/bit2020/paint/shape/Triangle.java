@@ -1,4 +1,4 @@
-package com.bit2020.chapter03.paint;
+package com.bit2020.paint.shape;
 
 public class Triangle extends Shape {
 	private int x1;
