@@ -4,4 +4,8 @@
 
 ### 2. chapter02
 
+<pre>
+<code>
 List<String> list = new ArrayList<>();
+</code>
+</pre>
