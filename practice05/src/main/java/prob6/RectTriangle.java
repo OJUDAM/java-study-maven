@@ -1,6 +1,6 @@
 package prob6;
 
-public class RectTriangle extends Shape implements Resizable {
+public class RectTriangle extends Shape  {
 	double width;
 	double height;
 	
@@ -19,12 +19,7 @@ public class RectTriangle extends Shape implements Resizable {
 		// TODO Auto-generated method stub
 		return width+height+Math.sqrt(width*width+height*height);
 	}
-	@Override
-	public void resize(double rate) {
-		// TODO Auto-generated method stub
-		width = width*rate;
-		height = height*rate;
-	}
+	
 
 
 }
