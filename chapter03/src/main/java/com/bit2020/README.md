@@ -10,7 +10,7 @@ ___Ucasting___ --> 부모 ref = new 자식();
 ```
 
 근데 자식 클래스에 있는 메소드를 사용하고 싶다
-`**_DownCasting__**`을 명시적으로 선언해준다.
+`**_DownCasting_**`을 명시적으로 선언해준다.
 
 ```java
 	((ColorPoint)point3).setColor("red");
