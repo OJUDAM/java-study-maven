@@ -87,13 +87,25 @@ getInstance()메소드로 객체를 생성 => 객체는 static으로 생성
 	}
 ```
 
-**_SingleTone, Factory Method_**
+**_SingleTone, Factory Method_**    
 `SingleTone` : 전역 변수를 사용하지 않고 **객체를 하나만 생성** 하도록 하며, 생성된 **객체를 어디서든지 참조**할 수 있도록 하는 패턴
 
 ==> 객체의 생성과 조합을 캡슐화해 특정 객체가 생성되거나 변경되어도 프로그램 구조에 영향을 크게 받지 않도록 유연성을 제공한다.
 
-`Factory Method` : 객체를 만들어내는 공장을 만드는것~
-`객체를 만들어내는 부분을 서브 클래스에 위임하는 패턴`
+`Factory Method` : 객체를 만들어내는 공장을 만드는것~    
+`객체를 만들어내는 부분을 서브 클래스에 위임하는 패턴`    
 메인 프로그램은 어떤 객체가 생성 되었는지 신경 쓰기 않고 단지 반환된 객체를 사용만 하면됨
 새로운 객체가 추가되고 새로운 팩토리가 추가된다 해도 메인 프로그램에서 변경할 코드는 최소화됨
 **효율적인 코드제어, 의존성제거**
+
+**_Collection_**    
+`여러 객체를 담을 수 있는 자료구조'    
+![Collection_hi](https://user-images.githubusercontent.com/31756030/88452167-6817df80-ce97-11ea-9f9d-679b077e51e5.PNG)
+
+**Iterator**    
+객체들을 순환
+for~each 구문에 내장
+
+```java
+	Iterator<String> it = list.iterator();
+```
