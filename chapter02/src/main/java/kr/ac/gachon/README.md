@@ -47,3 +47,5 @@ public abstract class Car implements Parkable{
 ```
 
 인터페이스는 기능(method)를 추상화할 떄 사용
+
+![ParkSystem_UML](https://user-images.githubusercontent.com/31756030/88449687-be7b2300-ce83-11ea-8fd7-6a52a0be0455.PNG)
