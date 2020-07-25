@@ -1,5 +1,4 @@
-### [Upcasting , DownCasting](https://github.com/OJUDAM/java-study-maven/tree/master/chapter03/src/main/java/com/bit2020/paint)
-</hr>
+## [Upcasting , DownCasting](https://github.com/OJUDAM/java-study-maven/tree/master/chapter03/src/main/java/com/bit2020/paint)
 
 ___Ucasting___ --> 부모 ref = new 자식();
 업캐스팅 할경우 자식만이 가지고 있는 메소드들은 호출 할 수 없다.
@@ -11,7 +10,7 @@ ___Ucasting___ --> 부모 ref = new 자식();
 ```
 
 근데 자식 클래스에 있는 메소드를 사용하고 싶다
-___DownCasting___을 명시적으로 선언해준다.
+`___DownCasting___`을 명시적으로 선언해준다.
 
 ```java
 	((ColorPoint)point3).setColor("red");
