@@ -6,7 +6,7 @@
 
 ### 3. [chapter03](https://github.com/OJUDAM/java-study-maven/tree/master/chapter03/src/main/java/com/bit2020)
 
-### 4. [chapter04](https://github.com/OJUDAM/java-study-maven/tree/master/chapter04)
+### 4. [chapter04](https://github.com/OJUDAM/java-study-maven/tree/master/chapter04/src/main/java/com/bit2020/chapter04)
 
 ___객체 지향 프로그래밍___
 
