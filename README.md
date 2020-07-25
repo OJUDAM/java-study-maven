@@ -4,7 +4,7 @@
 
 ### 2. [chapter02](https://github.com/OJUDAM/java-study-maven/tree/master/chapter02/src/main/java/kr/ac/gachon)
 
-### 3. [chapter03](https://github.com/OJUDAM/java-study-maven/tree/master/chapter03/src/main/java)
+### 3. [chapter03](https://github.com/OJUDAM/java-study-maven/tree/master/chapter03/src/main/java/com/bit2020)
 
 ___객체 지향 프로그래밍___
 
